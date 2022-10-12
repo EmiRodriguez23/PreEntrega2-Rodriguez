@@ -94,7 +94,7 @@
   font-size: 1rem;
 }
 
-/* Mobil */
+/* Vista mobil */
 @media (max-width: 700px) {
   .menu-btn {
     display: block;
@@ -105,6 +105,11 @@
   }
   
   #carouselExampleControlsNoTouching{
+    width: 500px;
+    height: 280px;
+  }
+
+  .carousel-inner{
     width: 500px;
     height: 280px;
   }
